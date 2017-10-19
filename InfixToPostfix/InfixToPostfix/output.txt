@@ -1,0 +1,28 @@
+Welcome to Infix to Postfix Expression Converter by Napon Krassner (Jett)
+
+Enter infix expression with ; at end: A + B * C;
+Infix:          A+B*C
+Postfix:        ABC*+
+
+Enter infix expression with ; at end: (A+B)*C;
+Infix:          (A+B)*C
+Postfix:        AB+C*
+
+Enter infix expression with ; at end: (a + b) * (c - d);
+Infix:          (a+b)*(c-d)
+Postfix:        ab+cd-*
+
+Enter infix expression with ; at end: A + ((B+C) * (E - F) - G) / (H - I);
+Infix:          A+((B+C)*(E-F)-G)/(H-I)
+Postfix:        ABC+EF-*G-HI-/+
+
+Enter infix expression with ; at end: A + B * (C + D) - E / F * G + H;
+Infix:          A+B*(C+D)-E/F*G+H
+Postfix:        ABCD+*+EF/G*-H+
+
+Enter infix expression with ; at end: B-O-N-U-S;
+Infix:          B-O-N-U-S
+Postfix:        BO-N-U-S-
+
+Enter infix expression with ; at end: ;
+Press any key to continue . . .
